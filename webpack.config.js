@@ -21,6 +21,9 @@ module.exports = {
         loader: 'vue-loader',
         options: {
           loaders: {
+          },
+          transformToRequire: {
+            "audio": "src"
           }
           // other vue-loader options go here
         }
